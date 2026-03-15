@@ -1,4 +1,0 @@
-PROJEKT SELEKTORA:
-ID: lunch
-TAG: RadioButton
-STATUS: ZALICZONE
