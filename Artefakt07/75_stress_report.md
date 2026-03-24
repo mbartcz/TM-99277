@@ -18,6 +18,8 @@
 * **Obrót ekranu:** Logi `73_state.log` potwierdzają, że layout jest przerysowywany poprawnie.
 * **Dynamic Sync:** Mechanizm `Explicit Wait` skrócił czas egzekucji testu o ok. **8.5s** w porównaniu do sztywnego czekania (`time.sleep`).
 
+## 4. Wniosek dot. przeżywalności: Aplikacja ApiDemos wykazuje wysoką odporność na przerwania systemowe i błędy synchronizacji dynamicznej. Mechanizmy obsługi cyklu życia urządzenia działają poprawnie, zapobiegając utracie danych sesji w sytuacjach stresowych.
+
 ---
 
 ## ⚠️ REKOMENDACJE DLA DEWELOPERA
