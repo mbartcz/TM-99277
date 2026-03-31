@@ -23,16 +23,16 @@ Ten projekt to kompletny ekosystem testowy oparty na podejsciu **Cloud-Ready / H
 ### 🔹 BLOK 1: Tooling & Environment (Infrastruktura)
 Przygotowanie bazy narzędziowej w modelu kontenerowym.
 * **Co zrobiono:** Pobranie i konfiguracja obrazów `appium`, `android-sdk` oraz `mobsf`.
-* **Wniosek:** [OPISZ SAM - dlaczego używamy obrazów Docker zamiast instalować wszystko lokalnie?]
+* **Wniosek:** Środowisko i Struktura zrobione
 
 ### 🔹 BLOK 2: Debugowanie i Analiza Statyczna (MobSF)
 Zrozumienie "wnętrza" aplikacji mobilnej przed przystąpieniem do testów.
 * **Co zrobiono:** Wykorzystanie MobSF do skanowania plików APK pod kątem podatności i uprawnień.
-* **Wniosek:** [OPISZ SAM - co daje testerowi analiza statyczna kodu APK?]
+* **Wniosek:**  ADB i Statystyczna Analiza APK
 
 ### 🔹 BLOK 3-4: Fundamenty Skryptowania (Python for QA)
 Budowa logiki testowej w języku Python.
-* **Co zrobiono:** [OPISZ SAM - o jakich strukturach danych i funkcjach się uczyłeś?]
+* **Co zrobiono:** Docker-Compose i Serwer Appium zrobione
 
 ### 🔹 BLOK 5-7: Hybrydowe Testowanie API (Requests & Pytest)
 Weryfikacja warstwy backendowej aplikacji mobilnej.
@@ -41,7 +41,7 @@ Weryfikacja warstwy backendowej aplikacji mobilnej.
 
 ### 🔹 BLOK 8: Appium UI Automation (Deep Dive)
 Automatyzacja interakcji z interfejsem użytkownika.
-* **Co zrobiono:** [OPISZ SAM - jakich selektorów używałeś (ID, XPath)? Jakie akcje symulowałeś na urządzeniu?]
+* **Co zrobiono:** Statyczna Analiza Bezpieczeństwa (MobSF)
 
 ### 🔹 BLOK 9: Konteneryzacja Serwera (Docker Compose)
 Izolacja silnika Appium od systemu operacyjnego.
